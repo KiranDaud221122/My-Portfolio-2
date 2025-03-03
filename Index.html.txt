@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiran B. Daud - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kiran B. Daud</h1>
+            <p>Electronics and Telecommunications Student | Java Enthusiast</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Electronics and Telecommunications student with a passion for Java programming and software development. Eager to tackle dynamic challenges and apply creativity to develop efficient, scalable, and innovative software solutions. Proficient in object-oriented programming, problem-solving, and seamless collaboration across cross-functional teams.</p>
+    </section>
+
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Shree Chhtrapati Shivaji Vidyalaya, Sillod</strong> - SSC: 85.0%</li>
+            <li><strong>Indo German Tool Room</strong> - Diploma in Mechatronics: 82.62%</li>
+            <li><strong>Government College of Engineering, Yavatmal</strong> - Electronics and Telecommunication: CGPA 6.35 (Expected Graduation: July 2025)</li>
+        </ul>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Python, Java, Core Java</li>
+            <li><strong>Core Java Concepts:</strong> OOP, Exception Handling, Collection Frameworks</li>
+            <li><strong>Tools:</strong> VS Code, IntelliJ IDEA</li>
+            <li><strong>Soft Skills:</strong> Problem-solving, Analytical Thinking, Team Collaboration, Time Management, Effective Communication</li>
+            <li><strong>Other Tools:</strong> Canva, Video Editing, PLC SCADA, AutoCad, Ansys (Basics)</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Face Mask Detection for COVID-19 Prevention</h3>
+            <p><strong>Technologies Used:</strong> OpenCV, Python, Arduino</p>
+            <p>Developed a real-time face mask detection system to prevent the spread of COVID-19 by identifying individuals wearing or not wearing masks.</p>
+        </div>
+        <div class="project">
+            <h3>Weather Monitoring Station</h3>
+            <p><strong>Technologies Used:</strong> Arduino, Sensors (DHT11, BMP180, Rain Sensor, LDR), LCD Display, Blynk IoT</p>
+            <p>Developed a Weather Monitoring Station using Arduino to measure environmental parameters.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:kirandaud007@gmail.com">kirandaud007@gmail.com</a></p>
+        <p>Phone: <a href="tel:9284012138">9284012138</a></p>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kiran B. Daud. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
